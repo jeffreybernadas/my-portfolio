@@ -1,4 +1,4 @@
 .eslintrc.json
-build/
+build
 dist/
 node_modules/

@@ -38,6 +38,7 @@
         "import/order": 2,
         "react/prop-types": "off",
         "react/require-default-props": "off",
+        "@typescript-eslint/no-explicit-any": "off",
         "no-noninteractive-element-to-interactive-role": [
             "off",
             {

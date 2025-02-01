@@ -1,5 +1,5 @@
 # Development Stage
-FROM node:22-alpine AS development
+FROM node:18 AS development
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ COPY . .
 CMD ["npm", "start"]
 
 # Build Stage
-FROM node:22-alpine AS builder
+FROM node:18 AS builder
 
 WORKDIR /app
 
